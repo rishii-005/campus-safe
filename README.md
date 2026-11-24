@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # 🛡️ Campus Safe
 ### Campus Emergency Assistance and Incident Coordination Platform
@@ -444,3 +445,7 @@ Project Repository: [Campus Safe](https://github.com/rishii-005/campus-safe)
 ---
 
 ⭐ If you find this project interesting, consider giving the repository a star!
+=======
+# campus-safe
+Campus Safe is a full-stack campus emergency management platform that enables students to report SOS alerts and complaints, while helping security teams, wardens, medical staff, and administrators coordinate incidents, assign responders, track resolutions, and receive real-time updates.
+>>>>>>> 1406985dd56f95cab2beb67fd0ae0d6a96c8aa97
