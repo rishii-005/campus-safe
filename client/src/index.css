@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --color-ink: #0b2545;
+  --color-ink-2: #13315c;
+  --color-signal: #d7263d;
+  --color-signal-dark: #a81a2d;
+  --color-amber: #e8890c;
+  --color-safe: #1b8a5a;
+  --color-paper: #f4f6f9;
+  --color-line: #dbe1ea;
+}
+
+html, body, #root { height: 100%; }
+body { background: var(--color-paper); color: #16243b; font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 3px solid #2563eb; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+@keyframes sos-pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(215,38,61,.55); } 50% { box-shadow: 0 0 0 10px rgba(215,38,61,0); } }
+.pulse-dot { animation: sos-pulse 1.8s infinite; }
